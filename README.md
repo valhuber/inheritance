@@ -76,6 +76,3 @@ ModuleNotFoundError: No module named 'sub'
 The current structure built the src into an unexpected location in the ```env``` folder:
 
 ![generated page](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
-
-
-https://drive.google.com/file/d/1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w/view?usp=sharing
