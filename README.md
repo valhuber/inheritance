@@ -1,12 +1,22 @@
 # Inheritance Test
 Explore inheritance of base/sub in same package on PyPi.
 
-## Run Locally
+## Install (VSCode)
+Source Control view, clone: https://github.com/valhuber/inheritance.git.
 ```
-git clone https://github.com/valhuber/inheritance.git
-# VSCode: F5 for run.py
+cd inheritance
+virtualenv venv
+# windows: .\venv\Scripts\activate
+source venv/bin/activatepip install -r requirements.txt
 ```
 
+## Run Locally
+
+VSCode: F5 for `run.py`. Should print:
+```
+super
+Sub here
+```
 
 ## Deploy to Pypi
 Since fab-quickstart is normally run via the command line, we must deploy to the PyPi site.
@@ -42,20 +52,20 @@ python3 -m twine upload  --skip-existing --repository testpypi dist/*
 ```
 
 To install (beware - may require 15 mins until new version is active.  You may want to `pip uninstall Inheritance-Test` before the upload to be sure you have the latest.)
-```
-pip install -i https://test.pypi.org/simple/ Inheritance-Test
-val@valMbp nw-app % inheritance-run
-```
 
-PyPi location is [here](https://test.pypi.org/project/Inheritance-Test).
+```
+# windows: .\venv\Scripts\activate
+source venv/bin/activate
+pip install -i https://test.pypi.org/simple/ Inheritance-Test
+inheritance-run
+```
 
 Currently failing:
+
 ```
 Traceback (most recent call last):
-  File "/Users/val/.pyenv/versions/3.8.3/bin/fab-quickstart", line 6, in <module>
-    from fab_quickstart.cli import start
-  File "/Users/val/.pyenv/versions/3.8.3/lib/python3.8/site-packages/fab_quickstart/cli.py", line 2, in <module>
-    from base import FabQuickStart
-ModuleNotFoundError: No module named 'base'
-val@valMbp nw-app % 
+  File "/Users/val/python/vscode/inheritance/venv/bin/inheritance-run", line 5, in <module>
+    from inheritance.run import start
+ModuleNotFoundError: No module named 'inheritance'
+(venv) val@valMbp inheritance % 
 ```
