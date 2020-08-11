@@ -66,7 +66,9 @@ Currently failing:
 ```
 Traceback (most recent call last):
   File "/Users/val/python/vscode/inheritance/venv/bin/inheritance-run", line 5, in <module>
-    from inheritance.run import start
-ModuleNotFoundError: No module named 'inheritance'
+    from src.inheritance_pkg.run_local import start
+  File "/Users/val/python/vscode/inheritance/venv/lib/python3.8/site-packages/src/inheritance_pkg/run_local.py", line 3, in <module>
+    import sub  # works PyC & vsc
+ModuleNotFoundError: No module named 'sub'
 (venv) val@valMbp inheritance % 
 ```
