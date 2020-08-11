@@ -47,6 +47,8 @@ pip install -i https://test.pypi.org/simple/ Inheritance-Test
 val@valMbp nw-app % inheritance-run
 ```
 
+PyPi location is [here](https://test.pypi.org/project/Inheritance-Test).
+
 Currently failing:
 ```
 Traceback (most recent call last):
