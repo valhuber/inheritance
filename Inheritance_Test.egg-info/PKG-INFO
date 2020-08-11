@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Inheritance-Test
+Version: 0.0.1
+Summary: Test inheritance (in same pkg) on PyPi.
+Home-page: https://github.com/valhuber/inheritance
+Author: Val Huber
+Author-email: valjhuber@gmail.com
+License: BSD
+Description: Run Inheritance on Pypi
+        =======================
+        
+        Explore inheritance of base/sub in same package -- on PyPi.
+Platform: any
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.6
+Description-Content-Type: text/x-rst
+Provides-Extra: jmespath

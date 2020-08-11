@@ -1,0 +1,9 @@
+README.rst
+setup.py
+Inheritance_Test.egg-info/PKG-INFO
+Inheritance_Test.egg-info/SOURCES.txt
+Inheritance_Test.egg-info/dependency_links.txt
+Inheritance_Test.egg-info/entry_points.txt
+Inheritance_Test.egg-info/not-zip-safe
+Inheritance_Test.egg-info/requires.txt
+Inheritance_Test.egg-info/top_level.txt

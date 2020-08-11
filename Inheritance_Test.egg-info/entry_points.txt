@@ -1,0 +1,3 @@
+[console_scripts]
+inheritance-run = inheritance.run:start
+
