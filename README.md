@@ -1,5 +1,5 @@
 # Inheritance Test
-Explore inheritance of base/sub in same package on PyPi.
+Explore inheritance of base/sub in same package on PyPi.  Posted to [StackOverflow](https://stackoverflow.com/questions/63363476/pypi-installed-app-fails-with-modulenotfound).
 
 ## Install (VSCode)
 Source Control view, clone: https://github.com/valhuber/inheritance.git.
