@@ -5,7 +5,7 @@ import re
 from setuptools import find_packages, setup
 
 
-with io.open("__init__.py", "rt", encoding="utf8") as f:
+with io.open("src/__init__.py", "rt", encoding="utf8") as f:
     version = re.search(r"__version__ = \"(.*?)\"", f.read()).group(1)
 
 
@@ -36,7 +36,7 @@ setup(
     packages=find_packages(),
     package_data={"": ["LICENSE"]},
     entry_points={
-        "console_scripts": ["inheritance-run=inheritance.run:start"]
+        "console_scripts": ["inheritance-run=src.inheritance_pkg.run_local:start"]
     },
     include_package_data=True,
     zip_safe=False,

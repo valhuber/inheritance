@@ -7,3 +7,10 @@ Inheritance_Test.egg-info/entry_points.txt
 Inheritance_Test.egg-info/not-zip-safe
 Inheritance_Test.egg-info/requires.txt
 Inheritance_Test.egg-info/top_level.txt
+src/__init__.py
+src/inheritance_pkg/__init__.py
+src/inheritance_pkg/base.py
+src/inheritance_pkg/run_local.py
+src/inheritance_pkg/sub.py
+src/sibling/__init__.py
+src/sibling/run_sibling.py
