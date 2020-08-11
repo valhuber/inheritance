@@ -3,7 +3,7 @@ Explore inheritance of base/sub in same package on PyPi.
 
 ## Run Locally
 ```
-git clone...
+git clone https://github.com/valhuber/inheritance.git
 # VSCode: F5 for run.py
 ```
 
