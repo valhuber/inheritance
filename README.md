@@ -7,7 +7,8 @@ Source Control view, clone: https://github.com/valhuber/inheritance.git.
 cd inheritance
 virtualenv venv
 # windows: .\venv\Scripts\activate
-source venv/bin/activatepip install -r requirements.txt
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Run Locally
