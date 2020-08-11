@@ -1,9 +1,10 @@
 # Inheritance Test
 Explore inheritance of base/sub in same package on PyPi.
 
+## Run Locally
 ```
-pip install -i https://test.pypi.org/simple/ Inheritance-Test
-inheritance-run
+git clone...
+# VSCode: F5 for run.py
 ```
 
 
