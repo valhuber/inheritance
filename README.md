@@ -52,12 +52,12 @@ python3 setup.py sdist bdist_wheel
 python3 -m twine upload  --skip-existing --repository testpypi dist/*
 ```
 
-To install (beware - may require 15 mins until new version is active.  You may want to `pip uninstall Inheritance-Test` before the upload to be sure you have the latest.)
+To install (beware - may require 15 mins until new version is active.
 
 ```
 # windows: .\venv\Scripts\activate
 source venv/bin/activate
-pip uninstall inheritance-pkg
+pip uninstall inheritance-pkg  # ensure we are running the latest
 pip install -i https://test.pypi.org/simple/ inheritance-pkg
 inheritance-run
 ```
