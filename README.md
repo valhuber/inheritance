@@ -64,13 +64,13 @@ inheritance-run
 Currently failing:
 
 ```
+(venv) val@valMbp inheritance % inheritance-run 
 Traceback (most recent call last):
   File "/Users/val/python/vscode/inheritance/venv/bin/inheritance-run", line 5, in <module>
     from src.inheritance_pkg.run_local import start
   File "/Users/val/python/vscode/inheritance/venv/lib/python3.8/site-packages/src/__init__.py", line 1, in <module>
     import inheritance_pkg  # attempting to force pkging of code
 ModuleNotFoundError: No module named 'inheritance_pkg'
-(venv) val@valMbp inheritance % 
 ```
 
 The current structure built the src into an unexpected location in the ```env``` folder:
