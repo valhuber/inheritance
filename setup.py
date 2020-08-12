@@ -2,7 +2,7 @@ import io
 import os
 import re
 
-from setuptools import find_packages, setup
+from setuptools import find_packages, setup, find_namespace_packages
 
 
 with io.open("src/__init__.py", "rt", encoding="utf8") as f:
@@ -22,8 +22,10 @@ def desc():
 
 
 setup(
-    name="Inheritance-Test",
+    name="inheritance_pkg",
     version=version,  
+    package_dir={"": "src"},
+    packages=find_namespace_packages(where="src"),
     url="https://github.com/valhuber/inheritance",
     license="BSD",
     author="Val Huber",
@@ -33,7 +35,7 @@ setup(
     ),
     long_description=desc(),
     long_description_content_type="text/x-rst",
-    packages=find_packages(),
+    #  packages=find_packages(),
     package_data={"": ["LICENSE"]},
     entry_points={
         "console_scripts": ["inheritance-run=src.inheritance_pkg.run_local:start"]

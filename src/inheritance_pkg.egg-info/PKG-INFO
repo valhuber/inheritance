@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: Inheritance-Test
-Version: 0.0.6
+Name: inheritance-pkg
+Version: 0.0.7
 Summary: Test inheritance (in same pkg) on PyPi.
 Home-page: https://github.com/valhuber/inheritance
 Author: Val Huber
