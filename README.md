@@ -57,21 +57,19 @@ To install (beware - may require 15 mins until new version is active.  You may w
 ```
 # windows: .\venv\Scripts\activate
 source venv/bin/activate
-pip install -i https://test.pypi.org/simple/ Inheritance-Test
+pip install -i https://test.pypi.org/simple/ inheritance-pkg
 inheritance-run
 ```
 
 Currently failing:
 
 ```
-(venv) val@valMbp inheritance % inheritance-run 
+(venv) val@valMbp inheritance % inheritance-run
 Traceback (most recent call last):
   File "/Users/val/python/vscode/inheritance/venv/bin/inheritance-run", line 5, in <module>
     from src.inheritance_pkg.run_local import start
-  File "/Users/val/python/vscode/inheritance/venv/lib/python3.8/site-packages/src/__init__.py", line 1, in <module>
-    import inheritance_pkg  # attempting to force pkging of code
-ModuleNotFoundError: No module named 'inheritance_pkg'
-```
+ModuleNotFoundError: No module named 'src'
+(venv) val@valMbp inheritance % ```
 
 The current structure built the src into an unexpected location in the ```env``` folder:
 
