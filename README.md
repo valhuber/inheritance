@@ -71,7 +71,5 @@ Traceback (most recent call last):
     from src.inheritance_pkg.run_local import start
 ModuleNotFoundError: No module named 'src'
 (venv) val@valMbp inheritance % ```
-
-The current structure built the src into an unexpected location in the ```env``` folder:
 ```
 ![pip structure](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
