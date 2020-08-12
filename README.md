@@ -73,3 +73,7 @@ ModuleNotFoundError: No module named 'src'
 (venv) val@valMbp inheritance % ```
 ```
 ![pip structure](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
+
+Manually restructured pip install fails same way:
+
+![pip restructure](https://drive.google.com/uc?export=view&id=1C41PEdrYQ6MGMV4fRR5kXmq41Pqe9kBK)
