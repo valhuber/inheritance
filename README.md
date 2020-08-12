@@ -72,5 +72,5 @@ ModuleNotFoundError: No module named 'src'
 (venv) val@valMbp inheritance % ```
 
 The current structure built the src into an unexpected location in the ```env``` folder:
-
-![generated page](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
+```
+![pip structure](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
