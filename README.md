@@ -42,7 +42,7 @@ python3 -m twine upload --repository testpypi dist/*  # upload to test Pypi
 ```
 User is `__token__`, pwd is **Saved API Key** (from above).
 
-This should upload to the [Pypi site](https://test.pypi.org/project/Inheritance-Test/)
+This should upload to the [Pypi site](https://test.pypi.org/project/inheritance-pkg/)
 
 To **re-upload:**
 1. Delete the `dist` folder (and `build`, and `.egg`)
@@ -57,6 +57,7 @@ To install (beware - may require 15 mins until new version is active.  You may w
 ```
 # windows: .\venv\Scripts\activate
 source venv/bin/activate
+pip uninstall inheritance-pkg
 pip install -i https://test.pypi.org/simple/ inheritance-pkg
 inheritance-run
 ```
