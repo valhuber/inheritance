@@ -21,7 +21,7 @@ def desc():
     return read("README.rst")
 
 
-setup(
+setup(  # per https://setuptools.readthedocs.io/en/latest/setuptools.html#using-find-packages
     name="inheritance_pkg",
     version=version,  
     package_dir={"": "src"},
