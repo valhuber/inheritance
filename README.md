@@ -42,7 +42,7 @@ python3 -m twine upload --repository testpypi dist/*  # upload to test Pypi
 ```
 User is `__token__`, pwd is **Saved API Key** (from above).
 
-This should upload to the [Pypi site](https://test.pypi.org/project/Inheritance-Test/)
+This should upload to the [Pypi site](https://test.pypi.org/project/inheritance-pkg/)
 
 To **re-upload:**
 1. Delete the `dist` folder (and `build`, and `.egg`)
@@ -57,6 +57,7 @@ To install (beware - may require 15 mins until new version is active.  You may w
 ```
 # windows: .\venv\Scripts\activate
 source venv/bin/activate
+pip uninstall inheritance-pkg
 pip install -i https://test.pypi.org/simple/ inheritance-pkg
 inheritance-run
 ```
@@ -72,5 +73,5 @@ ModuleNotFoundError: No module named 'src'
 (venv) val@valMbp inheritance % ```
 
 The current structure built the src into an unexpected location in the ```env``` folder:
-
-![generated page](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
+```
+![pip structure](https://drive.google.com/uc?export=view&id=1ZrzBRsUmc3A8AZY9RB-QvbQ0WXLma84w)
